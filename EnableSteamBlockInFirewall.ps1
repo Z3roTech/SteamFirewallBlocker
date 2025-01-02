@@ -1,5 +1,5 @@
 ﻿########## PRE SCRIPT ARGS ##########
-$SteamLocation = $null; # Place steam directory here (example: "C:/steam")
+$SteamLocation = $null; # Place steam directory here (example: "C:\steam")
 
 ########## PRE SCRIPT INIT ##########
 if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))  
